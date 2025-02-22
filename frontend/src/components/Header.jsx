@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Menu, X, ShoppingCart, LogOut, LogIn } from 'lucide-react';
-import logo from "../assets/logo.svg";
+import logo from "../assets/logo.png";
 import Navbar from './Navbar';
 import { ShopContext } from '../Context/ShopContext';
 
@@ -17,7 +17,7 @@ function Header() {
 
         {/* Logo */}
         <NavLink to="/">
-          <img src={logo} alt="logo" height={66} width={88} />
+          <img src={logo} alt="logo" height={88} width={88} />
         </NavLink>
 
         {/* Desktop Navbar */}

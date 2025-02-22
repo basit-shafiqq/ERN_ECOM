@@ -9,7 +9,7 @@ function Hero() {
         {/* Left Content */}
         <div>
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight bg-gradient-to-r from-yellow-400 to-red-500 text-transparent bg-clip-text">
-            ERN ECOM
+            PACTOS ERN_ECOM
           </h1>
           <p className="mt-4 text-lg text-gray-300">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, cum tempore recusandae deleniti assumenda doloribus quia ratione, ut eos, veniam sit qui sint quaerat provident deserunt. Deleniti repudiandae molestiae soluta!
