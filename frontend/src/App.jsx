@@ -6,7 +6,7 @@ import Category from './pages/Category'
 import Cart from './pages/Cart'
 import Product from './pages/Product'
 import Login from './pages/Login'
-// import Footer from './components/Footer'
+import Footer from './components/Footer'
 import bannermen from './assets/bannermens.png'
 import bannerwomen from './assets/bannerwomens.png'
 import bannerkids from './assets/bannerkids.png'
@@ -29,7 +29,7 @@ function App() {
           <Route path="/login" element={<Login/>}/>
 
         </Routes>
-        {/* <Footer/> */}
+        <Footer/>
       </BrowserRouter>
     </main>
   )

@@ -9,7 +9,7 @@ function Footer() {
         {/* Logo & Brand Section */}
         <div>
           <Link to="/" className="text-3xl font-bold text-yellow-500 hover:text-yellow-400 transition">
-            Shopee
+            PACTOS
           </Link>
           <p className="text-gray-400 mt-3 text-sm">
             Your one-stop online shopping destination. Get the best deals now!
@@ -48,7 +48,7 @@ function Footer() {
 
       {/* Copyright Section */}
       <div className="border-t border-gray-700 mt-10 pt-6 text-center text-gray-400 text-sm">
-        © {new Date().getFullYear()} Shopee. All rights reserved.
+        © {new Date().getFullYear()} PACTOS. All rights reserved.
       </div>
     </footer>
   );
